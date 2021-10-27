@@ -11,3 +11,53 @@
   height: 100vh;
   overflow: hidden;
 }
+/* .text-center {
+  text-shadow: 3px 3px 3px purple;
+} */
+@font-face {
+  font-family: kuchbhi;
+  src: url(go3v2.ttf);
+}
+.font-about {
+  font-family: kuchbhi;
+}
+/* .batman_contact {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: relative;
+}
+.batman_contact img {
+  width: 140px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: -50px;
+  animation-name: bhag;
+  animation-duration: 6s;
+
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bhag {
+  from {
+    left: 0;
+  }
+  to {
+    left: 85%;
+  }
+} */
+.love_heart {
+  width: 50px;
+  height: 50px;
+  transition-property: width, height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.love_heart:hover {
+  width: 100px;
+  height: 100px;
+}
+.img-fluid {
+  border-radius: 50px;
+}
